@@ -159,7 +159,7 @@
   <origin xyz="0.0 0.0 0.0161" rpy="0.0 0.0 0.0"/>
   <parent link="link5_atpiv_l2"/>
   <child link="link4_bras_l2"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="0.0 -1.0 0.0"/>
   <limit lower="0.000" upper="1" effort="100.0" velocity="20.0"/>
 </joint>
 
@@ -191,7 +191,7 @@
   <origin xyz="0.120 0.000 -0.033" rpy="0.0 -0.27 0.0"/>
   <parent link="link4_bras_l2"/>
   <child link="link6_roubi_l2"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="1.0 0.0 0.0"/>
 </joint>
 
 <link name="link6_roubi_l2">
@@ -222,8 +222,8 @@
   <origin xyz="0.7 0.1 0.01935" rpy="0.0 0.0 0.0"/>
   <parent link="link0_p4m"/>
   <child link="link7_brasimp_l2"/>
-  <axis xyz="1.0 0.0 0.0"/>
-  <limit lower="0.0" upper="1.0" effort="20.0" velocity="20.0"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+  <limit lower="0.0" upper="0.1" effort="20.0" velocity="20.0"/>
 </joint>
 
 <link name="link7_brasimp_l2">
@@ -315,7 +315,7 @@
   <origin xyz="0.0 0 0.0161" rpy="0.0 0.0 0.0"/>
   <parent link="link5_atpiv_l1"/>
   <child link="link4_bras_l1"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="0.0 -1.0 0.0"/>
   <limit lower="0.000" upper="1" effort="100.0" velocity="20.0"/>
 </joint>
 
@@ -347,7 +347,7 @@
   <origin xyz="0.120 0 -0.033" rpy="0.0 -0.27 0.0"/>
   <parent link="link4_bras_l1"/>
   <child link="link6_roubi_l1"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="1.0 0.0 0.0"/>
 </joint>
 
 <link name="link6_roubi_l1">
@@ -378,8 +378,8 @@
   <origin xyz="0.7 0.95 0.01935" rpy="0.0 0.0 0.0"/>
   <parent link="link0_p4m"/>
   <child link="link7_brasimp_l1"/>
-  <axis xyz="1.0 0.0 0.0"/>
-  <limit lower="0.0" upper="1.0" effort="20.0" velocity="20.0"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+  <limit lower="0.0" upper="0.1" effort="20.0" velocity="20.0"/>
 </joint>
 
 <link name="link7_brasimp_l1">
@@ -472,7 +472,7 @@
   <origin xyz="0.0 0 0.0161" rpy="0.0 0.0 0.0"/>
   <parent link="link5_atpiv_l3"/>
   <child link="link4_bras_l3"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="0.0 -1.0 0.0"/>
   <limit lower="0.000" upper="1" effort="100.0" velocity="20.0"/>
 </joint>
 
@@ -504,7 +504,7 @@
   <origin xyz="0.120 0 -0.033" rpy="0.0 -0.27 0.0"/>
   <parent link="link4_bras_l3"/>
   <child link="link6_roubi_l3"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="1.0 0.0 0.0"/>
 </joint>
 
 <link name="link6_roubi_l3">
@@ -535,8 +535,8 @@
   <origin xyz="0.7 -0.9 0.01935" rpy="0.0 0.0 0.0"/>
   <parent link="link0_p4m"/>
   <child link="link7_brasimp_l3"/>
-  <axis xyz="1.0 0.0 0.0"/>
-  <limit lower="0.0" upper="1.0" effort="20.0" velocity="20.0"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+  <limit lower="0.0" upper="0.1" effort="20.0" velocity="20.0"/>
 </joint>
 
 <link name="link7_brasimp_l3">
@@ -726,7 +726,7 @@
   <origin xyz="0.0 0.0 0.0161" rpy="0.0 0.0 0.0"/>
   <parent link="link5_atpiv_r2"/>
   <child link="link4_bras_r2"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="0.0 -1.0 0.0"/>
   <limit lower="0.000" upper="1" effort="100.0" velocity="20.0"/>
 </joint>
 
@@ -758,7 +758,7 @@
   <origin xyz="0.120 0.000 -0.033" rpy="0.0 -0.27 0.0"/>
   <parent link="link4_bras_r2"/>
   <child link="link6_roubi_r2"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="-1.0 0.0 0.0"/>
 </joint>
 
 <link name="link6_roubi_r2">
@@ -789,8 +789,8 @@
   <origin xyz="-0.7 0.1 0.01935" rpy="0.0 0.0 3.1416"/>
   <parent link="link0_p4m"/>
   <child link="link7_brasimp_r2"/>
-  <axis xyz="1.0 0.0 0.0"/>
-  <limit lower="0.0" upper="1.0" effort="20.0" velocity="20.0"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+  <limit lower="0.0" upper="0.1" effort="20.0" velocity="20.0"/>
 </joint>
 
 <link name="link7_brasimp_r2">
@@ -848,6 +848,7 @@
   </collision>
 </link>
 <!-- _______________________________________________________________________________________________ -->
+
 <link name="link4_bras_r1">
   <inertial>
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
@@ -882,7 +883,7 @@
   <origin xyz="0.0 0 0.0161" rpy="0.0 0.0 0.0"/>
   <parent link="link5_atpiv_r1"/>
   <child link="link4_bras_r1"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="0.0 -1.0 0.0"/>
   <limit lower="0.000" upper="1" effort="100.0" velocity="20.0"/>
 </joint>
 
@@ -914,7 +915,7 @@
   <origin xyz="0.120 0 -0.033" rpy="0.0 -0.27 0.0"/>
   <parent link="link4_bras_r1"/>
   <child link="link6_roubi_r1"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="1.0 0.0 0.0"/>
 </joint>
 
 <link name="link6_roubi_r1">
@@ -942,11 +943,11 @@
 </link>
 
 <joint name="joint_0_7_r1" type="prismatic">
-  <origin xyz="-0.7 0.95 0.01935" rpy="0.0 0.0 0.0"/>
+  <origin xyz="-0.7 0.95 0.01935" rpy="0.0 0.0 3.1416"/>
   <parent link="link0_p4m"/>
   <child link="link7_brasimp_r1"/>
-  <axis xyz="1.0 0.0 0.0"/>
-  <limit lower="0.0" upper="1.0" effort="20.0" velocity="20.0"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+  <limit lower="0.0" upper="0.1" effort="20.0" velocity="20.0"/>
 </joint>
 
 <link name="link7_brasimp_r1">
@@ -1039,7 +1040,7 @@
   <origin xyz="0.0 0 0.0161" rpy="0.0 0.0 0.0"/>
   <parent link="link5_atpiv_r3"/>
   <child link="link4_bras_r3"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="0.0 -1.0 0.0"/>
   <limit lower="0.000" upper="1" effort="100.0" velocity="20.0"/>
 </joint>
 
@@ -1071,7 +1072,7 @@
   <origin xyz="0.120 0 -0.033" rpy="0.0 -0.27 0.0"/>
   <parent link="link4_bras_r3"/>
   <child link="link6_roubi_r3"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="1.0 0.0 0.0"/>
 </joint>
 
 <link name="link6_roubi_r3">
@@ -1102,8 +1103,8 @@
   <origin xyz="-0.7 -0.9 0.01935" rpy="0.0 0.0 3.1416"/>
   <parent link="link0_p4m"/>
   <child link="link7_brasimp_r3"/>
-  <axis xyz="1.0 0.0 0.0"/>
-  <limit lower="0.0" upper="1.0" effort="20.0" velocity="20.0"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+  <limit lower="0.0" upper="0.1" effort="20.0" velocity="20.0"/>
 </joint>
 
 <link name="link7_brasimp_r3">
