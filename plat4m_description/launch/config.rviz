@@ -71,22 +71,32 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        link1_atache:
+        link1_atache_l2:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link2_act:
+        link1_atache_r2:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link3_tige:
+        link2_act_l2:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link4_bras:
+        link2_act_r2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link3_tige_l2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link3_tige_r2:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -96,7 +106,27 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        link5_atpiv:
+        link4_bras_l2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link4_bras_l3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link4_bras_r1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link4_bras_r2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link4_bras_r3:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -106,7 +136,27 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        link6_roubi:
+        link5_atpiv_l2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link5_atpiv_l3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link5_atpiv_r1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link5_atpiv_r2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link5_atpiv_r3:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -116,7 +166,27 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        link7_brasimp:
+        link6_roubi_l2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link6_roubi_l3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link6_roubi_r1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link6_roubi_r2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link6_roubi_r3:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -126,12 +196,57 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        link8_band:
+        link7_brasimp_l2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link7_brasimp_l3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link7_brasimp_r1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link7_brasimp_r2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link7_brasimp_r3:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
         link8_band_l1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link8_band_l2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link8_band_l3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link8_band_r1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link8_band_r2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link8_band_r3:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -156,31 +271,77 @@ Visualization Manager:
         All Enabled: true
         link0_p4m:
           Value: true
-        link1_atache:
+        link1_atache_l2:
           Value: true
-        link2_act:
+        link1_atache_r2:
           Value: true
-        link3_tige:
+        link2_act_l2:
           Value: true
-        link4_bras:
+        link2_act_r2:
+          Value: true
+        link3_tige_l2:
+          Value: true
+        link3_tige_r2:
           Value: true
         link4_bras_l1:
           Value: true
-        link5_atpiv:
+        link4_bras_l2:
+          Value: true
+        link4_bras_l3:
+          Value: true
+        link4_bras_r1:
+          Value: true
+        link4_bras_r2:
+          Value: true
+        link4_bras_r3:
           Value: true
         link5_atpiv_l1:
           Value: true
-        link6_roubi:
+        link5_atpiv_l2:
+          Value: true
+        link5_atpiv_l3:
+          Value: true
+        link5_atpiv_r1:
+          Value: true
+        link5_atpiv_r2:
+          Value: true
+        link5_atpiv_r3:
           Value: true
         link6_roubi_l1:
           Value: true
-        link7_brasimp:
+        link6_roubi_l2:
+          Value: true
+        link6_roubi_l3:
+          Value: true
+        link6_roubi_r1:
+          Value: true
+        link6_roubi_r2:
+          Value: true
+        link6_roubi_r3:
           Value: true
         link7_brasimp_l1:
           Value: true
-        link8_band:
+        link7_brasimp_l2:
+          Value: true
+        link7_brasimp_l3:
+          Value: true
+        link7_brasimp_r1:
+          Value: true
+        link7_brasimp_r2:
+          Value: true
+        link7_brasimp_r3:
           Value: true
         link8_band_l1:
+          Value: true
+        link8_band_l2:
+          Value: true
+        link8_band_l3:
+          Value: true
+        link8_band_r1:
+          Value: true
+        link8_band_r2:
+          Value: true
+        link8_band_r3:
           Value: true
       Marker Scale: 0.0500000007
       Name: TF
@@ -189,23 +350,55 @@ Visualization Manager:
       Show Names: true
       Tree:
         link0_p4m:
-          link1_atache:
-            link2_act:
-              link3_tige:
+          link1_atache_l2:
+            link2_act_l2:
+              link3_tige_l2:
                 {}
-          link5_atpiv:
-            link4_bras:
-              link6_roubi:
+          link1_atache_r2:
+            link2_act_r2:
+              link3_tige_r2:
                 {}
           link5_atpiv_l1:
             link4_bras_l1:
               link6_roubi_l1:
                 {}
-          link7_brasimp:
-            link8_band:
-              {}
+          link5_atpiv_l2:
+            link4_bras_l2:
+              link6_roubi_l2:
+                {}
+          link5_atpiv_l3:
+            link4_bras_l3:
+              link6_roubi_l3:
+                {}
+          link5_atpiv_r1:
+            link4_bras_r1:
+              link6_roubi_r1:
+                {}
+          link5_atpiv_r2:
+            link4_bras_r2:
+              link6_roubi_r2:
+                {}
+          link5_atpiv_r3:
+            link4_bras_r3:
+              link6_roubi_r3:
+                {}
           link7_brasimp_l1:
             link8_band_l1:
+              {}
+          link7_brasimp_l2:
+            link8_band_l2:
+              {}
+          link7_brasimp_l3:
+            link8_band_l3:
+              {}
+          link7_brasimp_r1:
+            link8_band_r1:
+              {}
+          link7_brasimp_r2:
+            link8_band_r2:
+              {}
+          link7_brasimp_r3:
+            link8_band_r3:
               {}
       Update Interval: 0
       Value: true
@@ -234,25 +427,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.33782387
+      Distance: 3.56388736
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.194810271
-        Y: -0.0761790872
-        Z: 0.0225230455
+        X: -0.125226736
+        Y: 0.0449109077
+        Z: 0.0192658901
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.944869995
+      Pitch: 0.862829804
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.71658945
+      Yaw: 4.71964169
     Saved: ~
 Window Geometry:
   Displays:
